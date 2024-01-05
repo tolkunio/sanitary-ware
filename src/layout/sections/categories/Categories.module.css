@@ -1,0 +1,14 @@
+.categories{
+    background: #F8FAFF;
+}
+.container{
+    box-sizing: border-box;
+    max-width: 1240px;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
