@@ -11,6 +11,7 @@ import ariston from '../../../assets/images/card9.png'
 import showers from '../../../assets/images/card10.png'
 import convector from '../../../assets/images/card11.png'
 import {Category} from "./Category/Category";
+import {SectionTitle} from "../../../components/sectionTitle/SectionTitle";
 
 type CategoryType = {
     id: number,
@@ -108,6 +109,7 @@ export const Categories = () => {
     return (
         <div className={s.categories}>
             <div className={s.container}>
+                <SectionTitle title={'Категории'}/>
                 <div className={s.wrapper}>
                     {categories.map(el =>
                         <Category key={el.id} title={el.title} count={el.count} imgSrc={el.imgSrc}/>)}
