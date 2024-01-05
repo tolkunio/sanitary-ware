@@ -1,0 +1,16 @@
+.searchBar {
+    padding: 12px 41px;
+    min-width: 600px;
+    border-radius: 1000px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    position: relative;
+
+}
+
+.searchIcon{
+    position: absolute;
+    top:35px;
+    left: 335px;
+}
