@@ -1,0 +1,23 @@
+.addreses{
+    background: #F8FAFF;
+}
+.container{
+    box-sizing: border-box;
+    max-width: 1240px;
+    min-height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 66px;
+    gap: 10px;
+}
+.line{
+    width: 378px;
+    height: 1px;
+    background: #E3E3E3;
+}

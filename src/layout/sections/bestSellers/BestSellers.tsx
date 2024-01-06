@@ -3,6 +3,9 @@ import bestItem from '../../../assets/images/bestItem.png';
 import {BestItem} from "./BestItem/BestItem";
 import {SectionTitle} from "../../../components/sectionTitle/SectionTitle";
 import {SubTitle} from "../../../components/subTitle/SubTitle";
+export interface BestSellersBlockProps {
+    bestSellers: Array<BestItemsType>
+}
 export type BestItemsType = {
     id: number,
     imgSrc: string,
@@ -77,13 +80,13 @@ export const BestSellers = () => {
                 </div>
                 <div className={s.wrapper}>
                     {bestItems.map(el => <BestItem key={el.id}
-                                                   imgSrc={el.imgSrc}
-                                                   isLiked={el.like}
-                                                   description={el.description}
-                                                   price={el.price}
-                                                   inStock={el.inStock}
-                                                   isComplect={el.isComplect}
-                                                   count={el.count}/>)}
+                                                                 imgSrc={el.imgSrc}
+                                                                 isLiked={el.like}
+                                                                 description={el.description}
+                                                                 price={el.price}
+                                                                 inStock={el.inStock}
+                                                                 isComplect={el.isComplect}
+                                                                 count={el.count}/>)}
                 </div>
             </div>
         </div>

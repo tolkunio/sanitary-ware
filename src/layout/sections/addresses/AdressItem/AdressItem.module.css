@@ -1,0 +1,111 @@
+.addressItem {
+    border-radius: 10px;
+    background: #FFF;
+    min-width: 370px;
+    padding: 15px;
+}
+
+.titleRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addressRow {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 20px;
+}
+
+.timeRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+.timePinWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.phonePinWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.logo {
+}
+
+.logoTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleDesc {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+.actionLink {
+    color: #0062D5;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.adressCityStreet{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.address {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.time {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.phone {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.arrow {
+    align-self: end;
+}
+.addressPin {
+
+}
+
+.timePin {
+
+}
