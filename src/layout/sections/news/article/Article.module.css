@@ -39,3 +39,7 @@
     font-style: normal;
     font-weight: 400;
 }
+.btn:hover{
+   border: 1px solid darkblue;
+    font-weight: 600;
+}

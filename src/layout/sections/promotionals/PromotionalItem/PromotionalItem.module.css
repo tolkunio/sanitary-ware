@@ -86,6 +86,9 @@
     border-radius: 100px;
     background: #F5F5F5;
 }
+.circle:hover{
+    background: #3286C3;
+}
 .count{
     color: #000;
     text-align: center;

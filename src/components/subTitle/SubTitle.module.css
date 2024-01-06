@@ -5,4 +5,8 @@
     font-weight: 600;
     padding-top: 40px;
     padding-bottom: 18px;
+    text-decoration: none;
+}
+.subtitle:visited{
+    color: #004F86;
 }

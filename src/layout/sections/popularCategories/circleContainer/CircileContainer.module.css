@@ -19,3 +19,6 @@ border-radius: 100px;
     font-weight: 400;
     line-height: normal;
 }
+.circle:hover{
+    border: 1.5px solid #D7EEFE;
+}

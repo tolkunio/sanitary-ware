@@ -17,9 +17,6 @@ export const Footer = () => {
                         <div className={s.logoIconWrapper}>
                             <Icon iconId={'appstore'} width={'144'} height={'46'} viewBox={'0 0 144 46'}/>
                         </div>
-                        <p className={s.copy}>
-                            © 2023 Iskender.kg - Отечественный бренд сантехники
-                        </p>
                     </div>
                     <div className={s.addressWrapper}>
                         <span className={s.address}>Адреса</span>
@@ -57,8 +54,10 @@ export const Footer = () => {
                             <Icon iconId={'facebook'} height={'24'} width={'24'} viewBox={'0 0 24 24'}/>
                         </div>
                     </div>
-
                 </div>
+                <p className={s.copy}>
+                    © 2023 Iskender.kg - Отечественный бренд сантехники
+                </p>
             </div>
         </div>
     );

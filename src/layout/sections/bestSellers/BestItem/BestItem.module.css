@@ -72,6 +72,9 @@
     border-radius: 100px;
     background: #F5F5F5;
 }
+.circle:hover{
+    background: #3286C3;
+}
 .count{
     color: #000;
     text-align: center;
@@ -89,4 +92,10 @@
     height: 24px;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.50);
+}
+@media screen and (max-width: 900px) {
+    .bestItem{
+       padding: 2px;
+       justify-content: space-evenly;
+    }
 }

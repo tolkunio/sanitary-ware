@@ -10,7 +10,7 @@ export const Article = ({discount,title}:ArticlePropsType) => {
             <div className={s.desc}>
                 <span className={s.discount}>{discount}</span>
                 <span className={s.title}>{title}</span>
-                <button className={s.btn}>Подробнее</button>
+                <button className={s.btn} onClick={()=>{}}>Подробнее</button>
             </div>
             <div>
                 <Icon iconId={'newsLogo'} height={'112'} width={'168'} viewBox={'0 0 168 112'}/>

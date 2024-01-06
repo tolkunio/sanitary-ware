@@ -4,8 +4,8 @@ type SubTitlePropsType={
 }
 export const SubTitle = ({text}:SubTitlePropsType) => {
     return (
-        <span className={s.subtitle}>
+        <a href={'#'} className={s.subtitle}>
         {text}
-        </span>
+        </a>
     );
 };
