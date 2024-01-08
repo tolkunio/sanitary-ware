@@ -29,14 +29,14 @@
 .title {
     padding-bottom: 3px;
     color: #000;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 14px;
     font-weight: 500;
 }
 
 .count {
     color: #727272;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 12px;
     font-weight: 400;
 }

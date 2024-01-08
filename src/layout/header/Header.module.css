@@ -23,13 +23,13 @@
 }
 .hello{
     color: #FFF;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Thin';
     font-size: 10px;
     font-weight: 400;
 }
 .login{
     color: #FFF;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 14px;
     font-weight: 600;
 }

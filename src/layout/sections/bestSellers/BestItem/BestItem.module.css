@@ -17,7 +17,7 @@
 }
 .desc{
     color: #1A1919;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -29,14 +29,14 @@
 .price{
     padding-top: 7px;
     color: #000;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 19px;
     font-weight: 700;
     align-self: start;
 }
 .inStock{
     color: #73CB5E;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 12px;
     font-weight: 500;
     align-self: start;
@@ -50,7 +50,7 @@
 .isComplectSpan{
     padding-top: 6px;
     color: #3286C2;
-    font-family: Gilroy;
+    font-family: 'Gilroy-Medium';
     font-size: 12.437px;
     font-weight: 400;
     align-self: center;
